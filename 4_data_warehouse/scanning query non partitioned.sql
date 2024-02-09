@@ -1,4 +1,3 @@
--- Impact of partition
 -- Scanning 12.82MB of data
 SELECT DISTINCT(PULocationID)
 FROM green_taxi_2022.green_tripdata_2022_non_partitoned
