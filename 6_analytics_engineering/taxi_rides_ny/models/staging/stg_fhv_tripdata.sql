@@ -10,7 +10,7 @@ select
     cast(dolocationid as integer) as dropoff_locationid,    
     SR_flag as sr_flag,
     Affiliated_base_number as affiliated_base_number
-from {{ source('staging', 'external_fhv_tripdata_2019') }}
+from {{ source('staging', 'fhv_tripdata_2019') }}
 
 -- dbt build --m <model.sql> --var 'is_test_run: false'
 {% if var('is_test_run', default=false) %}
