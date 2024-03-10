@@ -1,4 +1,4 @@
-#Create Table
+#Create Materialized View
 CREATE MATERIALIZED VIEW trip_time_condition AS
 SELECT
 z1.zone AS pickup_zone,
