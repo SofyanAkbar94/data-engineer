@@ -1,4 +1,4 @@
-
+#Create Materialized View
 CREATE MATERIALIZED VIEW trip_time_count AS
 SELECT
 z1.zone AS pickup_zone,
